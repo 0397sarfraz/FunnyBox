@@ -34,13 +34,13 @@ else{
                 <FaHeart
                     onClick={handleFavorite}
                     size={24}
-                    className="flex-shrink-0 text-red-500 hover:scale-125 transition-transform duration-200 cursor-pointer ml-2"
+                    className="flex-shrink-0 text-pink-500 hover:scale-125 transition-transform duration-200 cursor-pointer ml-2"
                 />
             ) : (
                 <CiHeart
                     onClick={handleFavorite}
                     size={24}
-                    className="flex-shrink-0 text-red-500 hover:scale-125 transition-transform duration-200 cursor-pointer ml-2"
+                    className="flex-shrink-0 text-pink-500 hover:scale-125 transition-transform duration-200 cursor-pointer ml-2"
                 />
             )}  
         </div>
